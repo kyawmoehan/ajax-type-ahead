@@ -80,3 +80,15 @@ span.population {
 .hl {
   background: #ffc600;
 }
+
+/* responsive */
+@media (max-width: 560px){
+  .search-form {
+    max-width: 70%;
+  }  
+  input.search {
+    border: 8px solid #F7F7F7;
+    font-size: 20px;
+    padding: 15px;
+  }
+}
